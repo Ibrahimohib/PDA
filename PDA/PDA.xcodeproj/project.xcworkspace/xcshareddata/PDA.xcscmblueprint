@@ -4,23 +4,16 @@
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "CE21286C4C6FBD5488C234DC8E1F384573A698CA" : 9223372036854775807,
-    "1709F64F05F5B1BFDD493E80322E1E6885FC8510" : 9223372036854775807
+    "CE21286C4C6FBD5488C234DC8E1F384573A698CA" : 9223372036854775807
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "682D6FE4-7B61-42C1-97E7-A8F2F5BCEBCF",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "CE21286C4C6FBD5488C234DC8E1F384573A698CA" : "PDA\/",
-    "1709F64F05F5B1BFDD493E80322E1E6885FC8510" : ""
+    "CE21286C4C6FBD5488C234DC8E1F384573A698CA" : "PDA\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "PDA",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
   "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "PDA\/PDA.xcodeproj",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
-    {
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/bsafford39\/Xuttle.git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1709F64F05F5B1BFDD493E80322E1E6885FC8510"
-    },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Ibrahimohib\/PDA.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
