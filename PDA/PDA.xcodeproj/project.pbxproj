@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD24E4741DCB95D00083849D /* background_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD24E4731DCB95D00083849D /* background_2.jpg */; };
 		BD2AF1FB1DCAA39900A7B582 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2AF1FA1DCAA39900A7B582 /* AppDelegate.swift */; };
 		BD2AF1FD1DCAA39900A7B582 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2AF1FC1DCAA39900A7B582 /* ViewController.swift */; };
 		BD2AF2001DCAA39900A7B582 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD2AF1FE1DCAA39900A7B582 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD24E4731DCB95D00083849D /* background_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = background_2.jpg; path = "../../../../Downloads/assets3/backgrounds/set 2/background_2.jpg"; sourceTree = "<group>"; };
 		BD2AF1F71DCAA39900A7B582 /* PDA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PDA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD2AF1FA1DCAA39900A7B582 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD2AF1FC1DCAA39900A7B582 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 			children = (
 				BD7666321DCAAD5D00F08402 /* ic_build_48pt.png */,
 				BD76663A1DCAB4F400F08402 /* background_1.jpg */,
+				BD24E4731DCB95D00083849D /* background_2.jpg */,
 				BD7666381DCAAE2C00F08402 /* tool-icon-8075.jpg */,
 				BD7666361DCAAE1300F08402 /* Calculator-Icon.png */,
 				BD37DA901DCB8E58007A0919 /* calccoins.jpg */,
@@ -158,6 +161,7 @@
 			files = (
 				BD76663B1DCAB4F400F08402 /* background_1.jpg in Resources */,
 				BD7666371DCAAE1300F08402 /* Calculator-Icon.png in Resources */,
+				BD24E4741DCB95D00083849D /* background_2.jpg in Resources */,
 				BD37DA8D1DCB8371007A0919 /* tools.jpg in Resources */,
 				BD37DA8F1DCB8DEE007A0919 /* calculatoracc.jpeg in Resources */,
 				BD2AF2081DCAA39900A7B582 /* LaunchScreen.storyboard in Resources */,
