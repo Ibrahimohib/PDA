@@ -25,6 +25,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         self.view.layoutIfNeeded()
         super.viewDidLoad()
+        
         goalsText.clipsToBounds = true
         calcText.clipsToBounds = true
         toolsText.clipsToBounds = true
@@ -38,6 +39,8 @@ class ViewController: UIViewController {
         toolsButtonOut.layer.cornerRadius = 30
         calcButtonOut.layer.cornerRadius = 30
         toolsrealOut.layer.cornerRadius = 30
+        
+        
         
     }
 
