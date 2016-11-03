@@ -1,14 +1,19 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="PDA" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,11 +21,91 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background_1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="wDo-tA-5De">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o1c-WV-Pjv">
+                                <rect key="frame" x="16" y="28" width="343" height="276"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="276" id="2IU-Q4-pd4"/>
+                                </constraints>
+                                <state key="normal" image="open_photo.jpeg"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JeO-Tp-a3n">
+                                <rect key="frame" x="16" y="324" width="343" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="jki-cn-oJ0"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="calccoins.jpg"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hPz-Y9-9f7">
+                                <rect key="frame" x="16" y="494" width="343" height="150"/>
+                                <state key="normal" title="Button" image="tools.jpg"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TOOLS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DYU-Ad-fWJ">
+                                <rect key="frame" x="56" y="524" width="264" height="91"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="55"/>
+                                <color key="textColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="APPRAISE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WHK-Qh-U1y">
+                                <rect key="frame" x="56" y="352" width="264" height="95"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="55"/>
+                                <color key="textColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$5,764 SAVED" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b2g-Uu-v44">
+                                <rect key="frame" x="16" y="248" width="343" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="38"/>
+                                <color key="textColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="WHK-Qh-U1y" firstAttribute="centerY" secondItem="JeO-Tp-a3n" secondAttribute="centerY" id="5cs-e8-xMf"/>
+                            <constraint firstItem="JeO-Tp-a3n" firstAttribute="trailing" secondItem="hPz-Y9-9f7" secondAttribute="trailing" id="7XX-9a-v0o"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="DYU-Ad-fWJ" secondAttribute="bottom" constant="52" id="8Cl-dk-V1N"/>
+                            <constraint firstItem="JeO-Tp-a3n" firstAttribute="trailing" secondItem="o1c-WV-Pjv" secondAttribute="trailing" id="8fs-py-bya"/>
+                            <constraint firstItem="WHK-Qh-U1y" firstAttribute="trailing" secondItem="DYU-Ad-fWJ" secondAttribute="trailing" id="9Bv-qu-o3k"/>
+                            <constraint firstItem="DYU-Ad-fWJ" firstAttribute="top" secondItem="JeO-Tp-a3n" secondAttribute="bottom" constant="50" id="9gz-Bh-Tqp"/>
+                            <constraint firstItem="hPz-Y9-9f7" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="AYj-F7-HAA"/>
+                            <constraint firstItem="DYU-Ad-fWJ" firstAttribute="centerY" secondItem="hPz-Y9-9f7" secondAttribute="centerY" id="Can-MR-HIC"/>
+                            <constraint firstItem="JeO-Tp-a3n" firstAttribute="top" secondItem="o1c-WV-Pjv" secondAttribute="bottom" constant="20" id="DAe-3G-2kp"/>
+                            <constraint firstItem="wDo-tA-5De" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="F1o-o4-7bk"/>
+                            <constraint firstItem="wDo-tA-5De" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="GB6-fI-dyR"/>
+                            <constraint firstItem="o1c-WV-Pjv" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="HRE-Hd-Swd"/>
+                            <constraint firstItem="hPz-Y9-9f7" firstAttribute="top" secondItem="WHK-Qh-U1y" secondAttribute="bottom" constant="47" id="OEB-7X-Thf"/>
+                            <constraint firstItem="wDo-tA-5De" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Qcx-0i-Wcz"/>
+                            <constraint firstItem="hPz-Y9-9f7" firstAttribute="top" secondItem="JeO-Tp-a3n" secondAttribute="bottom" constant="20" id="VgG-bM-qwP"/>
+                            <constraint firstItem="o1c-WV-Pjv" firstAttribute="centerX" secondItem="wDo-tA-5De" secondAttribute="centerX" id="bWa-r5-Tw5"/>
+                            <constraint firstItem="DYU-Ad-fWJ" firstAttribute="centerX" secondItem="hPz-Y9-9f7" secondAttribute="centerX" id="c6K-LF-hwc"/>
+                            <constraint firstItem="o1c-WV-Pjv" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="e34-Sb-zS3"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="wDo-tA-5De" secondAttribute="bottom" id="eiI-jj-QfC"/>
+                            <constraint firstItem="hPz-Y9-9f7" firstAttribute="top" secondItem="JeO-Tp-a3n" secondAttribute="bottom" constant="20" id="fG5-rE-h36"/>
+                            <constraint firstItem="wDo-tA-5De" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gkE-Wg-Aqm"/>
+                            <constraint firstAttribute="trailing" secondItem="wDo-tA-5De" secondAttribute="trailing" id="j1G-BE-0CP"/>
+                            <constraint firstItem="hPz-Y9-9f7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="nQZ-dv-l4j"/>
+                            <constraint firstItem="WHK-Qh-U1y" firstAttribute="leading" secondItem="DYU-Ad-fWJ" secondAttribute="leading" id="nbK-a2-lEz"/>
+                            <constraint firstItem="JeO-Tp-a3n" firstAttribute="leading" secondItem="o1c-WV-Pjv" secondAttribute="leading" id="wRo-Yx-r5Z"/>
+                            <constraint firstItem="JeO-Tp-a3n" firstAttribute="leading" secondItem="hPz-Y9-9f7" secondAttribute="leading" id="yLd-3W-Faw"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="background_1.jpg" width="640" height="1136"/>
+        <image name="calccoins.jpg" width="4928" height="3264"/>
+        <image name="open_photo.jpeg" width="2304" height="1536"/>
+        <image name="tools.jpg" width="3670" height="2462"/>
+    </resources>
 </document>
