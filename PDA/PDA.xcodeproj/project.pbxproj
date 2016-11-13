@@ -14,16 +14,18 @@
 		BD2AF2031DCAA39900A7B582 /* PDA.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD2AF2011DCAA39900A7B582 /* PDA.xcdatamodeld */; };
 		BD2AF2051DCAA39900A7B582 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD2AF2041DCAA39900A7B582 /* Assets.xcassets */; };
 		BD2AF2081DCAA39900A7B582 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD2AF2061DCAA39900A7B582 /* LaunchScreen.storyboard */; };
-		BD37DA8B1DCB825A007A0919 /* calculatorreg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BD37DA8A1DCB825A007A0919 /* calculatorreg.jpeg */; };
-		BD37DA8D1DCB8371007A0919 /* tools.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD37DA8C1DCB8371007A0919 /* tools.jpg */; };
-		BD37DA8F1DCB8DEE007A0919 /* calculatoracc.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BD37DA8E1DCB8DEE007A0919 /* calculatoracc.jpeg */; };
-		BD37DA911DCB8E58007A0919 /* calccoins.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD37DA901DCB8E58007A0919 /* calccoins.jpg */; };
-		BD7666311DCAA9E400F08402 /* open_photo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BD7666301DCAA9E400F08402 /* open_photo.jpeg */; };
 		BD7666331DCAAD5D00F08402 /* ic_build_48pt.png in Resources */ = {isa = PBXBuildFile; fileRef = BD7666321DCAAD5D00F08402 /* ic_build_48pt.png */; };
 		BD7666351DCAAE0700F08402 /* tool-icon-8066.png in Resources */ = {isa = PBXBuildFile; fileRef = BD7666341DCAAE0700F08402 /* tool-icon-8066.png */; };
-		BD7666371DCAAE1300F08402 /* Calculator-Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BD7666361DCAAE1300F08402 /* Calculator-Icon.png */; };
 		BD7666391DCAAE2C00F08402 /* tool-icon-8075.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD7666381DCAAE2C00F08402 /* tool-icon-8075.jpg */; };
 		BD76663B1DCAB4F400F08402 /* background_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD76663A1DCAB4F400F08402 /* background_1.jpg */; };
+		BDFBED301DD7D3300061E6B6 /* calccoins.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BDFBED2B1DD7D3300061E6B6 /* calccoins.jpg */; };
+		BDFBED311DD7D3300061E6B6 /* calculatoracc.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BDFBED2C1DD7D3300061E6B6 /* calculatoracc.jpeg */; };
+		BDFBED321DD7D3300061E6B6 /* calculatorreg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BDFBED2D1DD7D3300061E6B6 /* calculatorreg.jpeg */; };
+		BDFBED331DD7D3300061E6B6 /* open_photo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BDFBED2E1DD7D3300061E6B6 /* open_photo.jpeg */; };
+		BDFBED341DD7D3300061E6B6 /* tools.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BDFBED2F1DD7D3300061E6B6 /* tools.jpg */; };
+		BDFBED361DD846920061E6B6 /* CalcViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFBED351DD846920061E6B6 /* CalcViewController.swift */; };
+		BDFBED381DD8493D0061E6B6 /* calcback.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BDFBED371DD8493D0061E6B6 /* calcback.jpeg */; };
+		BDFBED3A1DD84D4C0061E6B6 /* maps.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BDFBED391DD84D4C0061E6B6 /* maps.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,16 +38,18 @@
 		BD2AF2041DCAA39900A7B582 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD2AF2071DCAA39900A7B582 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD2AF2091DCAA39900A7B582 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BD37DA8A1DCB825A007A0919 /* calculatorreg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = calculatorreg.jpeg; path = ../../../../Desktop/calculatorreg.jpeg; sourceTree = "<group>"; };
-		BD37DA8C1DCB8371007A0919 /* tools.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = tools.jpg; path = ../../../../Desktop/tools.jpg; sourceTree = "<group>"; };
-		BD37DA8E1DCB8DEE007A0919 /* calculatoracc.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = calculatoracc.jpeg; path = ../../../../Desktop/calculatoracc.jpeg; sourceTree = "<group>"; };
-		BD37DA901DCB8E58007A0919 /* calccoins.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = calccoins.jpg; path = ../../../../Desktop/calccoins.jpg; sourceTree = "<group>"; };
-		BD7666301DCAA9E400F08402 /* open_photo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = open_photo.jpeg; path = ../../../../Desktop/open_photo.jpeg; sourceTree = "<group>"; };
 		BD7666321DCAAD5D00F08402 /* ic_build_48pt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_build_48pt.png; path = ../../../../Downloads/ic_build_black_48dp/ios/ic_build_48pt.imageset/ic_build_48pt.png; sourceTree = "<group>"; };
 		BD7666341DCAAE0700F08402 /* tool-icon-8066.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tool-icon-8066.png"; path = "../../../../Downloads/tool-icon-8066.png"; sourceTree = "<group>"; };
-		BD7666361DCAAE1300F08402 /* Calculator-Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Calculator-Icon.png"; path = "../../../../Desktop/Calculator-Icon.png"; sourceTree = "<group>"; };
 		BD7666381DCAAE2C00F08402 /* tool-icon-8075.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "tool-icon-8075.jpg"; path = "../../../../Downloads/tool-icon-8075.jpg"; sourceTree = "<group>"; };
 		BD76663A1DCAB4F400F08402 /* background_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = background_1.jpg; path = "../../../../Downloads/assets1/Custom Design 1/backgrounds/background_1.jpg"; sourceTree = "<group>"; };
+		BDFBED2B1DD7D3300061E6B6 /* calccoins.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = calccoins.jpg; sourceTree = SOURCE_ROOT; };
+		BDFBED2C1DD7D3300061E6B6 /* calculatoracc.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = calculatoracc.jpeg; sourceTree = SOURCE_ROOT; };
+		BDFBED2D1DD7D3300061E6B6 /* calculatorreg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = calculatorreg.jpeg; sourceTree = SOURCE_ROOT; };
+		BDFBED2E1DD7D3300061E6B6 /* open_photo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = open_photo.jpeg; sourceTree = SOURCE_ROOT; };
+		BDFBED2F1DD7D3300061E6B6 /* tools.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tools.jpg; sourceTree = SOURCE_ROOT; };
+		BDFBED351DD846920061E6B6 /* CalcViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalcViewController.swift; sourceTree = "<group>"; };
+		BDFBED371DD8493D0061E6B6 /* calcback.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = calcback.jpeg; sourceTree = SOURCE_ROOT; };
+		BDFBED391DD84D4C0061E6B6 /* maps.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = maps.jpeg; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,20 +82,22 @@
 		BD2AF1F91DCAA39900A7B582 /* PDA */ = {
 			isa = PBXGroup;
 			children = (
+				BDFBED371DD8493D0061E6B6 /* calcback.jpeg */,
 				BD7666321DCAAD5D00F08402 /* ic_build_48pt.png */,
 				BD76663A1DCAB4F400F08402 /* background_1.jpg */,
 				BD24E4731DCB95D00083849D /* background_2.jpg */,
 				BD7666381DCAAE2C00F08402 /* tool-icon-8075.jpg */,
-				BD7666361DCAAE1300F08402 /* Calculator-Icon.png */,
-				BD37DA901DCB8E58007A0919 /* calccoins.jpg */,
-				BD37DA8E1DCB8DEE007A0919 /* calculatoracc.jpeg */,
-				BD37DA8C1DCB8371007A0919 /* tools.jpg */,
-				BD37DA8A1DCB825A007A0919 /* calculatorreg.jpeg */,
 				BD7666341DCAAE0700F08402 /* tool-icon-8066.png */,
 				BD2AF1FA1DCAA39900A7B582 /* AppDelegate.swift */,
 				BD2AF1FC1DCAA39900A7B582 /* ViewController.swift */,
 				BD2AF1FE1DCAA39900A7B582 /* Main.storyboard */,
-				BD7666301DCAA9E400F08402 /* open_photo.jpeg */,
+				BDFBED391DD84D4C0061E6B6 /* maps.jpeg */,
+				BDFBED351DD846920061E6B6 /* CalcViewController.swift */,
+				BDFBED2B1DD7D3300061E6B6 /* calccoins.jpg */,
+				BDFBED2C1DD7D3300061E6B6 /* calculatoracc.jpeg */,
+				BDFBED2D1DD7D3300061E6B6 /* calculatorreg.jpeg */,
+				BDFBED2E1DD7D3300061E6B6 /* open_photo.jpeg */,
+				BDFBED2F1DD7D3300061E6B6 /* tools.jpg */,
 				BD2AF2041DCAA39900A7B582 /* Assets.xcassets */,
 				BD2AF2061DCAA39900A7B582 /* LaunchScreen.storyboard */,
 				BD2AF2091DCAA39900A7B582 /* Info.plist */,
@@ -160,17 +166,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD76663B1DCAB4F400F08402 /* background_1.jpg in Resources */,
-				BD7666371DCAAE1300F08402 /* Calculator-Icon.png in Resources */,
+				BDFBED381DD8493D0061E6B6 /* calcback.jpeg in Resources */,
 				BD24E4741DCB95D00083849D /* background_2.jpg in Resources */,
-				BD37DA8D1DCB8371007A0919 /* tools.jpg in Resources */,
-				BD37DA8F1DCB8DEE007A0919 /* calculatoracc.jpeg in Resources */,
+				BDFBED3A1DD84D4C0061E6B6 /* maps.jpeg in Resources */,
+				BDFBED341DD7D3300061E6B6 /* tools.jpg in Resources */,
+				BDFBED321DD7D3300061E6B6 /* calculatorreg.jpeg in Resources */,
+				BDFBED331DD7D3300061E6B6 /* open_photo.jpeg in Resources */,
 				BD2AF2081DCAA39900A7B582 /* LaunchScreen.storyboard in Resources */,
 				BD7666331DCAAD5D00F08402 /* ic_build_48pt.png in Resources */,
+				BDFBED311DD7D3300061E6B6 /* calculatoracc.jpeg in Resources */,
 				BD2AF2051DCAA39900A7B582 /* Assets.xcassets in Resources */,
-				BD7666311DCAA9E400F08402 /* open_photo.jpeg in Resources */,
-				BD37DA8B1DCB825A007A0919 /* calculatorreg.jpeg in Resources */,
 				BD7666351DCAAE0700F08402 /* tool-icon-8066.png in Resources */,
-				BD37DA911DCB8E58007A0919 /* calccoins.jpg in Resources */,
+				BDFBED301DD7D3300061E6B6 /* calccoins.jpg in Resources */,
 				BD7666391DCAAE2C00F08402 /* tool-icon-8075.jpg in Resources */,
 				BD2AF2001DCAA39900A7B582 /* Main.storyboard in Resources */,
 			);
@@ -184,6 +191,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD2AF2031DCAA39900A7B582 /* PDA.xcdatamodeld in Sources */,
+				BDFBED361DD846920061E6B6 /* CalcViewController.swift in Sources */,
 				BD2AF1FD1DCAA39900A7B582 /* ViewController.swift in Sources */,
 				BD2AF1FB1DCAA39900A7B582 /* AppDelegate.swift in Sources */,
 			);
