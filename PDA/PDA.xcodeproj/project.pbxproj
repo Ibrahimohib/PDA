@@ -18,6 +18,10 @@
 		BD7666351DCAAE0700F08402 /* tool-icon-8066.png in Resources */ = {isa = PBXBuildFile; fileRef = BD7666341DCAAE0700F08402 /* tool-icon-8066.png */; };
 		BD7666391DCAAE2C00F08402 /* tool-icon-8075.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD7666381DCAAE2C00F08402 /* tool-icon-8075.jpg */; };
 		BD76663B1DCAB4F400F08402 /* background_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD76663A1DCAB4F400F08402 /* background_1.jpg */; };
+		BD8B4F2D1DDA3238000E4870 /* pennysaver.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BD8B4F2C1DDA3238000E4870 /* pennysaver.jpeg */; };
+		BD8B4F2F1DDA32F6000E4870 /* bank.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BD8B4F2E1DDA32F6000E4870 /* bank.jpeg */; };
+		BD8B4F311DDA37BB000E4870 /* cafe.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BD8B4F301DDA37BB000E4870 /* cafe.jpeg */; };
+		BD8B4F351DDA3887000E4870 /* bkg2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD8B4F341DDA3887000E4870 /* bkg2.jpg */; };
 		BDFBED301DD7D3300061E6B6 /* calccoins.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BDFBED2B1DD7D3300061E6B6 /* calccoins.jpg */; };
 		BDFBED311DD7D3300061E6B6 /* calculatoracc.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BDFBED2C1DD7D3300061E6B6 /* calculatoracc.jpeg */; };
 		BDFBED321DD7D3300061E6B6 /* calculatorreg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BDFBED2D1DD7D3300061E6B6 /* calculatorreg.jpeg */; };
@@ -42,6 +46,10 @@
 		BD7666341DCAAE0700F08402 /* tool-icon-8066.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tool-icon-8066.png"; path = "../../../../Downloads/tool-icon-8066.png"; sourceTree = "<group>"; };
 		BD7666381DCAAE2C00F08402 /* tool-icon-8075.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "tool-icon-8075.jpg"; path = "../../../../Downloads/tool-icon-8075.jpg"; sourceTree = "<group>"; };
 		BD76663A1DCAB4F400F08402 /* background_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = background_1.jpg; path = "../../../../Downloads/assets1/Custom Design 1/backgrounds/background_1.jpg"; sourceTree = "<group>"; };
+		BD8B4F2C1DDA3238000E4870 /* pennysaver.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = pennysaver.jpeg; path = ../pennysaver.jpeg; sourceTree = "<group>"; };
+		BD8B4F2E1DDA32F6000E4870 /* bank.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bank.jpeg; sourceTree = SOURCE_ROOT; };
+		BD8B4F301DDA37BB000E4870 /* cafe.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cafe.jpeg; sourceTree = SOURCE_ROOT; };
+		BD8B4F341DDA3887000E4870 /* bkg2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bkg2.jpg; sourceTree = "<group>"; };
 		BDFBED2B1DD7D3300061E6B6 /* calccoins.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = calccoins.jpg; sourceTree = SOURCE_ROOT; };
 		BDFBED2C1DD7D3300061E6B6 /* calculatoracc.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = calculatoracc.jpeg; sourceTree = SOURCE_ROOT; };
 		BDFBED2D1DD7D3300061E6B6 /* calculatorreg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = calculatorreg.jpeg; sourceTree = SOURCE_ROOT; };
@@ -66,6 +74,7 @@
 		BD2AF1EE1DCAA39900A7B582 = {
 			isa = PBXGroup;
 			children = (
+				BD8B4F341DDA3887000E4870 /* bkg2.jpg */,
 				BD2AF1F91DCAA39900A7B582 /* PDA */,
 				BD2AF1F81DCAA39900A7B582 /* Products */,
 			);
@@ -82,6 +91,9 @@
 		BD2AF1F91DCAA39900A7B582 /* PDA */ = {
 			isa = PBXGroup;
 			children = (
+				BD8B4F301DDA37BB000E4870 /* cafe.jpeg */,
+				BD8B4F2E1DDA32F6000E4870 /* bank.jpeg */,
+				BD8B4F2C1DDA3238000E4870 /* pennysaver.jpeg */,
 				BDFBED371DD8493D0061E6B6 /* calcback.jpeg */,
 				BD7666321DCAAD5D00F08402 /* ic_build_48pt.png */,
 				BD76663A1DCAB4F400F08402 /* background_1.jpg */,
@@ -172,6 +184,8 @@
 				BDFBED341DD7D3300061E6B6 /* tools.jpg in Resources */,
 				BDFBED321DD7D3300061E6B6 /* calculatorreg.jpeg in Resources */,
 				BDFBED331DD7D3300061E6B6 /* open_photo.jpeg in Resources */,
+				BD8B4F351DDA3887000E4870 /* bkg2.jpg in Resources */,
+				BD8B4F2F1DDA32F6000E4870 /* bank.jpeg in Resources */,
 				BD2AF2081DCAA39900A7B582 /* LaunchScreen.storyboard in Resources */,
 				BD7666331DCAAD5D00F08402 /* ic_build_48pt.png in Resources */,
 				BDFBED311DD7D3300061E6B6 /* calculatoracc.jpeg in Resources */,
@@ -179,6 +193,8 @@
 				BD7666351DCAAE0700F08402 /* tool-icon-8066.png in Resources */,
 				BDFBED301DD7D3300061E6B6 /* calccoins.jpg in Resources */,
 				BD7666391DCAAE2C00F08402 /* tool-icon-8075.jpg in Resources */,
+				BD8B4F2D1DDA3238000E4870 /* pennysaver.jpeg in Resources */,
+				BD8B4F311DDA37BB000E4870 /* cafe.jpeg in Resources */,
 				BD2AF2001DCAA39900A7B582 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -8,8 +8,12 @@
 
 import UIKit
 
-class CalcViewController: UIViewController {
+class CalcViewController: UIViewController,UITextFieldDelegate {
 
+    @IBAction func calcButton(_ sender: Any) {
+        self.outputlabel.text = "You need to save $1,204 per month to be prepared for disaster"
+    }
+    @IBOutlet var outputlabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -19,6 +23,15 @@ class CalcViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
+    }
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
     }
     
 
