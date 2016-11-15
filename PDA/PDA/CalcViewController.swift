@@ -11,7 +11,7 @@ import UIKit
 class CalcViewController: UIViewController,UITextFieldDelegate {
 
     @IBAction func calcButton(_ sender: Any) {
-        self.outputlabel.text = "You need to save $1,204 per month to be prepared for disaster"
+        self.outputlabel.text = "You need to save $2,752 per month to be prepared for disaster"
     }
     @IBOutlet var outputlabel: UILabel!
     override func viewDidLoad() {
