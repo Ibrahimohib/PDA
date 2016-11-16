@@ -7,17 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BD24E4741DCB95D00083849D /* background_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD24E4731DCB95D00083849D /* background_2.jpg */; };
 		BD2AF1FB1DCAA39900A7B582 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2AF1FA1DCAA39900A7B582 /* AppDelegate.swift */; };
 		BD2AF1FD1DCAA39900A7B582 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2AF1FC1DCAA39900A7B582 /* ViewController.swift */; };
 		BD2AF2001DCAA39900A7B582 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD2AF1FE1DCAA39900A7B582 /* Main.storyboard */; };
 		BD2AF2031DCAA39900A7B582 /* PDA.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD2AF2011DCAA39900A7B582 /* PDA.xcdatamodeld */; };
 		BD2AF2051DCAA39900A7B582 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD2AF2041DCAA39900A7B582 /* Assets.xcassets */; };
 		BD2AF2081DCAA39900A7B582 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD2AF2061DCAA39900A7B582 /* LaunchScreen.storyboard */; };
-		BD7666331DCAAD5D00F08402 /* ic_build_48pt.png in Resources */ = {isa = PBXBuildFile; fileRef = BD7666321DCAAD5D00F08402 /* ic_build_48pt.png */; };
-		BD7666351DCAAE0700F08402 /* tool-icon-8066.png in Resources */ = {isa = PBXBuildFile; fileRef = BD7666341DCAAE0700F08402 /* tool-icon-8066.png */; };
-		BD7666391DCAAE2C00F08402 /* tool-icon-8075.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD7666381DCAAE2C00F08402 /* tool-icon-8075.jpg */; };
-		BD76663B1DCAB4F400F08402 /* background_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD76663A1DCAB4F400F08402 /* background_1.jpg */; };
 		BD8B4F2D1DDA3238000E4870 /* pennysaver.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BD8B4F2C1DDA3238000E4870 /* pennysaver.jpeg */; };
 		BD8B4F2F1DDA32F6000E4870 /* bank.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BD8B4F2E1DDA32F6000E4870 /* bank.jpeg */; };
 		BD8B4F311DDA37BB000E4870 /* cafe.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BD8B4F301DDA37BB000E4870 /* cafe.jpeg */; };
@@ -30,10 +25,10 @@
 		BDFBED361DD846920061E6B6 /* CalcViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFBED351DD846920061E6B6 /* CalcViewController.swift */; };
 		BDFBED381DD8493D0061E6B6 /* calcback.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BDFBED371DD8493D0061E6B6 /* calcback.jpeg */; };
 		BDFBED3A1DD84D4C0061E6B6 /* maps.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BDFBED391DD84D4C0061E6B6 /* maps.jpeg */; };
+		DBC816DF1DDCD19F00BD464E /* bkg1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBC816DE1DDCD19F00BD464E /* bkg1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BD24E4731DCB95D00083849D /* background_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = background_2.jpg; path = "../../../../Downloads/assets3/backgrounds/set 2/background_2.jpg"; sourceTree = "<group>"; };
 		BD2AF1F71DCAA39900A7B582 /* PDA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PDA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD2AF1FA1DCAA39900A7B582 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD2AF1FC1DCAA39900A7B582 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -42,10 +37,6 @@
 		BD2AF2041DCAA39900A7B582 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD2AF2071DCAA39900A7B582 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD2AF2091DCAA39900A7B582 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BD7666321DCAAD5D00F08402 /* ic_build_48pt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_build_48pt.png; path = ../../../../Downloads/ic_build_black_48dp/ios/ic_build_48pt.imageset/ic_build_48pt.png; sourceTree = "<group>"; };
-		BD7666341DCAAE0700F08402 /* tool-icon-8066.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tool-icon-8066.png"; path = "../../../../Downloads/tool-icon-8066.png"; sourceTree = "<group>"; };
-		BD7666381DCAAE2C00F08402 /* tool-icon-8075.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "tool-icon-8075.jpg"; path = "../../../../Downloads/tool-icon-8075.jpg"; sourceTree = "<group>"; };
-		BD76663A1DCAB4F400F08402 /* background_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = background_1.jpg; path = "../../../../Downloads/assets1/Custom Design 1/backgrounds/background_1.jpg"; sourceTree = "<group>"; };
 		BD8B4F2C1DDA3238000E4870 /* pennysaver.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = pennysaver.jpeg; path = ../pennysaver.jpeg; sourceTree = "<group>"; };
 		BD8B4F2E1DDA32F6000E4870 /* bank.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bank.jpeg; sourceTree = SOURCE_ROOT; };
 		BD8B4F301DDA37BB000E4870 /* cafe.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cafe.jpeg; sourceTree = SOURCE_ROOT; };
@@ -58,6 +49,7 @@
 		BDFBED351DD846920061E6B6 /* CalcViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalcViewController.swift; sourceTree = "<group>"; };
 		BDFBED371DD8493D0061E6B6 /* calcback.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = calcback.jpeg; sourceTree = SOURCE_ROOT; };
 		BDFBED391DD84D4C0061E6B6 /* maps.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = maps.jpeg; sourceTree = SOURCE_ROOT; };
+		DBC816DE1DDCD19F00BD464E /* bkg1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bkg1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +66,7 @@
 		BD2AF1EE1DCAA39900A7B582 = {
 			isa = PBXGroup;
 			children = (
+				DBC816DE1DDCD19F00BD464E /* bkg1.jpg */,
 				BD8B4F341DDA3887000E4870 /* bkg2.jpg */,
 				BD2AF1F91DCAA39900A7B582 /* PDA */,
 				BD2AF1F81DCAA39900A7B582 /* Products */,
@@ -95,11 +88,6 @@
 				BD8B4F2E1DDA32F6000E4870 /* bank.jpeg */,
 				BD8B4F2C1DDA3238000E4870 /* pennysaver.jpeg */,
 				BDFBED371DD8493D0061E6B6 /* calcback.jpeg */,
-				BD7666321DCAAD5D00F08402 /* ic_build_48pt.png */,
-				BD76663A1DCAB4F400F08402 /* background_1.jpg */,
-				BD24E4731DCB95D00083849D /* background_2.jpg */,
-				BD7666381DCAAE2C00F08402 /* tool-icon-8075.jpg */,
-				BD7666341DCAAE0700F08402 /* tool-icon-8066.png */,
 				BD2AF1FA1DCAA39900A7B582 /* AppDelegate.swift */,
 				BD2AF1FC1DCAA39900A7B582 /* ViewController.swift */,
 				BD2AF1FE1DCAA39900A7B582 /* Main.storyboard */,
@@ -177,9 +165,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD76663B1DCAB4F400F08402 /* background_1.jpg in Resources */,
 				BDFBED381DD8493D0061E6B6 /* calcback.jpeg in Resources */,
-				BD24E4741DCB95D00083849D /* background_2.jpg in Resources */,
+				DBC816DF1DDCD19F00BD464E /* bkg1.jpg in Resources */,
 				BDFBED3A1DD84D4C0061E6B6 /* maps.jpeg in Resources */,
 				BDFBED341DD7D3300061E6B6 /* tools.jpg in Resources */,
 				BDFBED321DD7D3300061E6B6 /* calculatorreg.jpeg in Resources */,
@@ -187,12 +174,9 @@
 				BD8B4F351DDA3887000E4870 /* bkg2.jpg in Resources */,
 				BD8B4F2F1DDA32F6000E4870 /* bank.jpeg in Resources */,
 				BD2AF2081DCAA39900A7B582 /* LaunchScreen.storyboard in Resources */,
-				BD7666331DCAAD5D00F08402 /* ic_build_48pt.png in Resources */,
 				BDFBED311DD7D3300061E6B6 /* calculatoracc.jpeg in Resources */,
 				BD2AF2051DCAA39900A7B582 /* Assets.xcassets in Resources */,
-				BD7666351DCAAE0700F08402 /* tool-icon-8066.png in Resources */,
 				BDFBED301DD7D3300061E6B6 /* calccoins.jpg in Resources */,
-				BD7666391DCAAE2C00F08402 /* tool-icon-8075.jpg in Resources */,
 				BD8B4F2D1DDA3238000E4870 /* pennysaver.jpeg in Resources */,
 				BD8B4F311DDA37BB000E4870 /* cafe.jpeg in Resources */,
 				BD2AF2001DCAA39900A7B582 /* Main.storyboard in Resources */,
