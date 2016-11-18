@@ -332,6 +332,9 @@
                                 <state key="normal" title="Disaster Loan Assistance">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="button6act:" destination="EcU-M3-VEG" eventType="touchUpInside" id="dcY-dv-xdc"/>
+                                </connections>
                             </button>
                             <button opaque="NO" alpha="0.60000002384185791" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eFf-9g-fHa">
                                 <rect key="frame" x="16" y="386" width="343" height="70"/>
@@ -341,15 +344,21 @@
                                 <state key="normal" title="SBA Disaster Relief">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="button5:" destination="EcU-M3-VEG" eventType="touchUpInside" id="MaP-gE-iUM"/>
+                                </connections>
                             </button>
                             <button opaque="NO" alpha="0.60000002384185791" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="goI-FW-4rx">
                                 <rect key="frame" x="16" y="308" width="343" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="25"/>
-                                <state key="normal" title="Department of Agriculuture">
+                                <state key="normal" title="Emergency Prep Hotline">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="button4:" destination="EcU-M3-VEG" eventType="touchUpInside" id="6Ze-fl-HfO"/>
+                                </connections>
                             </button>
                             <button opaque="NO" alpha="0.60000002384185791" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zg4-5O-b3G">
                                 <rect key="frame" x="16" y="152" width="343" height="70"/>
@@ -359,6 +368,9 @@
                                 <state key="normal" title="SBDC Tools">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="button2:" destination="EcU-M3-VEG" eventType="touchUpInside" id="mY5-qE-L5h"/>
+                                </connections>
                             </button>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" barStyle="black" translatesAutoresizingMaskIntoConstraints="NO" id="TVD-gW-isi">
                                 <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -382,6 +394,9 @@
                                 <state key="normal" title="How to prepare?">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="prepareButton:" destination="EcU-M3-VEG" eventType="touchUpInside" id="Q8c-vK-Fwg"/>
+                                </connections>
                             </button>
                             <button opaque="NO" alpha="0.60000002384185791" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ekr-hy-uEB">
                                 <rect key="frame" x="16" y="230" width="343" height="70"/>
@@ -391,10 +406,16 @@
                                 <state key="normal" title="FEMA Tools">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="button3:" destination="EcU-M3-VEG" eventType="touchUpInside" id="Lya-Kv-xPu"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="button6" destination="toS-Mt-gGj" id="I6y-sJ-k91"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="m4N-5a-Vrx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -411,6 +432,6 @@
         <image name="tools.jpg" width="3670" height="2462"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="qub-wk-aCq"/>
+        <segue reference="VvR-S2-7as"/>
     </inferredMetricsTieBreakers>
 </document>
