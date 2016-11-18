@@ -25,6 +25,7 @@
 		BDFBED361DD846920061E6B6 /* CalcViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFBED351DD846920061E6B6 /* CalcViewController.swift */; };
 		BDFBED381DD8493D0061E6B6 /* calcback.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BDFBED371DD8493D0061E6B6 /* calcback.jpeg */; };
 		BDFBED3A1DD84D4C0061E6B6 /* maps.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BDFBED391DD84D4C0061E6B6 /* maps.jpeg */; };
+		DB8FCBC71DDF95FA00C5CCAA /* educationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8FCBC61DDF95FA00C5CCAA /* educationViewController.swift */; };
 		DBC816DF1DDCD19F00BD464E /* bkg1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBC816DE1DDCD19F00BD464E /* bkg1.jpg */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +50,7 @@
 		BDFBED351DD846920061E6B6 /* CalcViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalcViewController.swift; sourceTree = "<group>"; };
 		BDFBED371DD8493D0061E6B6 /* calcback.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = calcback.jpeg; sourceTree = SOURCE_ROOT; };
 		BDFBED391DD84D4C0061E6B6 /* maps.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = maps.jpeg; sourceTree = SOURCE_ROOT; };
+		DB8FCBC61DDF95FA00C5CCAA /* educationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = educationViewController.swift; sourceTree = "<group>"; };
 		DBC816DE1DDCD19F00BD464E /* bkg1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bkg1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,6 +93,7 @@
 				BD2AF1FA1DCAA39900A7B582 /* AppDelegate.swift */,
 				BD2AF1FC1DCAA39900A7B582 /* ViewController.swift */,
 				BD2AF1FE1DCAA39900A7B582 /* Main.storyboard */,
+				DB8FCBC61DDF95FA00C5CCAA /* educationViewController.swift */,
 				BDFBED391DD84D4C0061E6B6 /* maps.jpeg */,
 				BDFBED351DD846920061E6B6 /* CalcViewController.swift */,
 				BDFBED2B1DD7D3300061E6B6 /* calccoins.jpg */,
@@ -194,6 +197,7 @@
 				BDFBED361DD846920061E6B6 /* CalcViewController.swift in Sources */,
 				BD2AF1FD1DCAA39900A7B582 /* ViewController.swift in Sources */,
 				BD2AF1FB1DCAA39900A7B582 /* AppDelegate.swift in Sources */,
+				DB8FCBC71DDF95FA00C5CCAA /* educationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

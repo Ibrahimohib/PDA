@@ -10,8 +10,20 @@ import UIKit
 
 class CalcViewController: UIViewController,UITextFieldDelegate {
 
+    @IBOutlet weak var sqftField: UITextField!
+    @IBOutlet var costsField: UITextField!
+    @IBOutlet var profitsField: UITextField!
+    @IBOutlet var typeField: UITextField!
     @IBAction func calcButton(_ sender: Any) {
         self.outputlabel.text = "You need to save $2,752 per month to be prepared for disaster"
+    }
+    @IBAction func reset(_ sender: Any) {
+        sqftField.text = ""
+        costsField.text = ""
+        profitsField.text = ""
+        typeField.text = ""
+        outputlabel.text = ""
+        
     }
     @IBOutlet var outputlabel: UILabel!
     override func viewDidLoad() {
@@ -25,9 +37,14 @@ class CalcViewController: UIViewController,UITextFieldDelegate {
         // Dispose of any resources that can be recreated.
     }
     
+    
+    
+    
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         self.view.endEditing(true)
     }
+    
+    
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         textField.resignFirstResponder()

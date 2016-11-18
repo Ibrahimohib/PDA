@@ -264,7 +264,11 @@
                                                 <segue destination="BYZ-38-t0r" kind="show" id="VvR-S2-7as"/>
                                             </connections>
                                         </barButtonItem>
-                                        <barButtonItem key="rightBarButtonItem" title="Reset" id="VFH-ev-WqN"/>
+                                        <barButtonItem key="rightBarButtonItem" title="Reset" id="VFH-ev-WqN">
+                                            <connections>
+                                                <action selector="reset:" destination="bMg-Oy-DDx" id="ddK-5W-kFr"/>
+                                            </connections>
+                                        </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
@@ -293,17 +297,21 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
+                        <outlet property="costsField" destination="U3J-3C-41Y" id="MxG-58-g9Z"/>
                         <outlet property="outputlabel" destination="9QJ-tj-z0G" id="B5o-1U-Sze"/>
+                        <outlet property="profitsField" destination="srR-9P-1bD" id="4dc-em-he0"/>
+                        <outlet property="sqftField" destination="ah4-lZ-5gs" id="exB-fO-9zI"/>
+                        <outlet property="typeField" destination="9yY-GC-AUi" id="y0G-jb-6vV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SML-Ro-yvs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="824.79999999999995" y="138.98050974512745"/>
         </scene>
-        <!--View Controller-->
+        <!--Education View Controller-->
         <scene sceneID="36T-Mh-n9e">
             <objects>
-                <viewController id="EcU-M3-VEG" sceneMemberID="viewController">
+                <viewController id="EcU-M3-VEG" customClass="educationViewController" customModule="PDA" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="4gX-lt-ndv"/>
                         <viewControllerLayoutGuide type="bottom" id="6cF-Js-tfj"/>
@@ -403,6 +411,6 @@
         <image name="tools.jpg" width="3670" height="2462"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="f5u-b5-KYp"/>
+        <segue reference="qub-wk-aCq"/>
     </inferredMetricsTieBreakers>
 </document>
