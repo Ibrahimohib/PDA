@@ -25,6 +25,11 @@
 		BDFBED361DD846920061E6B6 /* CalcViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFBED351DD846920061E6B6 /* CalcViewController.swift */; };
 		BDFBED381DD8493D0061E6B6 /* calcback.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BDFBED371DD8493D0061E6B6 /* calcback.jpeg */; };
 		BDFBED3A1DD84D4C0061E6B6 /* maps.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BDFBED391DD84D4C0061E6B6 /* maps.jpeg */; };
+		DB77B4421DE4F1CB003815C3 /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = DB77B4411DE4F1CB003815C3 /* Base.lproj */; };
+		DB77B4441DE4F1E1003815C3 /* bridge.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DB77B4431DE4F1E1003815C3 /* bridge.jpeg */; };
+		DB77B4461DE4F4EA003815C3 /* busystreeet.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DB77B4451DE4F4EA003815C3 /* busystreeet.jpeg */; };
+		DB77B4481DE4F52B003815C3 /* pdalogo.png in Resources */ = {isa = PBXBuildFile; fileRef = DB77B4471DE4F52B003815C3 /* pdalogo.png */; };
+		DB77B44A1DE4F65E003815C3 /* pdalogo2.png in Resources */ = {isa = PBXBuildFile; fileRef = DB77B4491DE4F65E003815C3 /* pdalogo2.png */; };
 		DB8FCBC71DDF95FA00C5CCAA /* educationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8FCBC61DDF95FA00C5CCAA /* educationViewController.swift */; };
 		DBC816DF1DDCD19F00BD464E /* bkg1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBC816DE1DDCD19F00BD464E /* bkg1.jpg */; };
 /* End PBXBuildFile section */
@@ -50,6 +55,11 @@
 		BDFBED351DD846920061E6B6 /* CalcViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalcViewController.swift; sourceTree = "<group>"; };
 		BDFBED371DD8493D0061E6B6 /* calcback.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = calcback.jpeg; sourceTree = SOURCE_ROOT; };
 		BDFBED391DD84D4C0061E6B6 /* maps.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = maps.jpeg; sourceTree = SOURCE_ROOT; };
+		DB77B4411DE4F1CB003815C3 /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Base.lproj; sourceTree = "<group>"; };
+		DB77B4431DE4F1E1003815C3 /* bridge.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bridge.jpeg; sourceTree = SOURCE_ROOT; };
+		DB77B4451DE4F4EA003815C3 /* busystreeet.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = busystreeet.jpeg; sourceTree = SOURCE_ROOT; };
+		DB77B4471DE4F52B003815C3 /* pdalogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pdalogo.png; sourceTree = SOURCE_ROOT; };
+		DB77B4491DE4F65E003815C3 /* pdalogo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pdalogo2.png; sourceTree = SOURCE_ROOT; };
 		DB8FCBC61DDF95FA00C5CCAA /* educationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = educationViewController.swift; sourceTree = "<group>"; };
 		DBC816DE1DDCD19F00BD464E /* bkg1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bkg1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -86,6 +96,11 @@
 		BD2AF1F91DCAA39900A7B582 /* PDA */ = {
 			isa = PBXGroup;
 			children = (
+				DB77B4471DE4F52B003815C3 /* pdalogo.png */,
+				DB77B4451DE4F4EA003815C3 /* busystreeet.jpeg */,
+				DB77B4491DE4F65E003815C3 /* pdalogo2.png */,
+				DB77B4431DE4F1E1003815C3 /* bridge.jpeg */,
+				DB77B4411DE4F1CB003815C3 /* Base.lproj */,
 				BD8B4F301DDA37BB000E4870 /* cafe.jpeg */,
 				BD8B4F2E1DDA32F6000E4870 /* bank.jpeg */,
 				BD8B4F2C1DDA3238000E4870 /* pennysaver.jpeg */,
@@ -168,21 +183,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB77B4441DE4F1E1003815C3 /* bridge.jpeg in Resources */,
 				BDFBED381DD8493D0061E6B6 /* calcback.jpeg in Resources */,
 				DBC816DF1DDCD19F00BD464E /* bkg1.jpg in Resources */,
 				BDFBED3A1DD84D4C0061E6B6 /* maps.jpeg in Resources */,
 				BDFBED341DD7D3300061E6B6 /* tools.jpg in Resources */,
 				BDFBED321DD7D3300061E6B6 /* calculatorreg.jpeg in Resources */,
 				BDFBED331DD7D3300061E6B6 /* open_photo.jpeg in Resources */,
+				DB77B44A1DE4F65E003815C3 /* pdalogo2.png in Resources */,
 				BD8B4F351DDA3887000E4870 /* bkg2.jpg in Resources */,
 				BD8B4F2F1DDA32F6000E4870 /* bank.jpeg in Resources */,
 				BD2AF2081DCAA39900A7B582 /* LaunchScreen.storyboard in Resources */,
+				DB77B4481DE4F52B003815C3 /* pdalogo.png in Resources */,
 				BDFBED311DD7D3300061E6B6 /* calculatoracc.jpeg in Resources */,
+				DB77B4421DE4F1CB003815C3 /* Base.lproj in Resources */,
 				BD2AF2051DCAA39900A7B582 /* Assets.xcassets in Resources */,
 				BDFBED301DD7D3300061E6B6 /* calccoins.jpg in Resources */,
 				BD8B4F2D1DDA3238000E4870 /* pennysaver.jpeg in Resources */,
 				BD8B4F311DDA37BB000E4870 /* cafe.jpeg in Resources */,
 				BD2AF2001DCAA39900A7B582 /* Main.storyboard in Resources */,
+				DB77B4461DE4F4EA003815C3 /* busystreeet.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
