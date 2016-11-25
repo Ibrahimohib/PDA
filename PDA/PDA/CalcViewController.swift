@@ -15,7 +15,7 @@ class CalcViewController: UIViewController,UITextFieldDelegate {
     @IBOutlet var profitsField: UITextField!
     @IBOutlet var typeField: UITextField!
     @IBAction func calcButton(_ sender: Any) {
-        self.outputlabel.text = "You need to save $2,752 per month to be prepared for disaster"
+        self.outputlabel.text = "You need to save $2,167 per month to be prepared for disaster"
     }
     @IBAction func reset(_ sender: Any) {
         sqftField.text = ""
