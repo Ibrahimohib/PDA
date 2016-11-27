@@ -4,8 +4,11 @@ Project for Bayou Classic BizTech Challenge 2016
 Preventing Disaster Assistant
 Team:
 Brittany Safford https://github.com/bsafford39
+
 Ajene Johnson https://github.com/ajenej96
+
 Mohib Ibrahim https://github.com/ibrahimohib
+
 
 The team finished 2nd overall, winning a prize of $6,000.
 
